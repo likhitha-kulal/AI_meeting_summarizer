@@ -1,0 +1,14 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Speech-to-text (includes torch as a transitive dependency)
+openai-whisper
+imageio-ffmpeg==0.6.0
+
+# Summarization
+openai==1.30.1
+sumy==0.11.0
+
+# Multipart file upload support for FastAPI
+python-multipart==0.0.9

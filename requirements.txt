@@ -1,0 +1,15 @@
+# Root-level pointer — actual dependencies live in backend/requirements.txt
+# Install with:  pip install -r backend/requirements.txt
+#
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Speech-to-text
+openai-whisper
+
+# Summarization
+openai==1.30.1
+
+# Multipart file upload support for FastAPI
+python-multipart==0.0.9
